@@ -8,7 +8,7 @@
 
 ต้นฉบับผู้พัฒนาโค๊ด = https://github.com/codeforthailand/election-live
 
-[ข้อมูลจาก หลวงพี่ที่แสนดี ตามด้านล่างนี้](https://github.com/purivaro/wonderful.software/tree/master/elect-live)
+## [ข้อมูลจาก หลวงพี่ที่แสนดี ตามด้านล่างนี้](https://github.com/purivaro/wonderful.software/tree/master/elect-live)
 
 ---
 meta:
@@ -24,7 +24,7 @@ meta:
 เป็นเว็บไซต์ที่ให้ผู้ใช้ติดตามผลการนับคะแนนเลือกตั้งได้แบบเรียลไทม์
 เราตั้งใจทำให้เป็นอีกหนึ่งแพลตฟอร์ม ที่หวังจะอำนวยความสะดวกให้คนไทยมีอีกหนึ่งช่องทางในการรับข้อมูลข่าวสารเกี่ยวกับการเลือกตั้ง
 
-![](./elect-live-screenshot.png)
+![Screenshot](docs/images/screenshot.png)
 
 เว็บไซต์นี้เกิดขึ้นจากทีม Developer และ Designer หลายคน จากที่ต่างๆ อาสามาร่วมกันพัฒนาโดยไม่มีค่าตอบแทนใดๆ
 ใช้เวลาพัฒนาเพียง 8 วันก่อนการเลือกตั้ง (ซึ่งเป็นเวลาส่วนตัวของอาสาสมัคร ไม่ใช่งานแบบ Full-time)
@@ -43,7 +43,7 @@ meta:
 บันทึกนี้จึงแบ่งเป็นหลายๆ หัวข้อย่อย [ติดตามได้โดยตรงจากผู้พัฒนา](https://github.com/codeforthailand/election-live)
 
 
-[ข้อมูลโดยตรงจากผู้พัฒนาตามด้านล่างนี้](https://github.com/codeforthailand/election-live)
+## [ข้อมูลโดยตรงจากผู้พัฒนา ELECT LIVE ตามด้านล่างนี้](https://github.com/codeforthailand/election-live)
 
 # ELECT LIVE [![CircleCI](https://img.shields.io/circleci/project/github/codeforthailand/election-live/master.svg?logo=circleci)](https://circleci.com/gh/codeforthailand/election-live) [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/codeforthailand/election-live.svg)](https://codeclimate.com/github/codeforthailand/election-live/maintainability) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/codeforthailand/election-live.svg)](https://codeclimate.com/github/codeforthailand/election-live/maintainability)
 
