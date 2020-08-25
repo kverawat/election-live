@@ -1,3 +1,50 @@
+### สิ่งที่ผม (kverawat) ประทับใจคือ โปรเจคนี้ทำโดยคนไทย เช่า Host จาก DigitalOcean ในราคาแค่ $10 ต่อเดือน ประมาณ 300 กว่าบาท แต่สามารถรองรับการใช้งาน 100,000 active users พร้อม ๆ กัน ได้อย่างสบาย และรองรับการเข้าชมมากกว่า 1.5 ล้าน user visited โดยใช้ Static Files ซึ่ง Generate ด้วย Gatsby บน Apache Server และใช้ Cloudflare + การ setting เรื่องของ Cache-Control เพื่อช่วยจัดการเรื่อง cache ที่ front end ซึ่งได้ผลเป็นที่น่าพอใจมากเพราะ cache rate อยู่ที่ 99%
+
+
+
+**เครดิตที่จำเป็นต้องให้ มี 2 ที่ คือ จากหลวงพี่ที่แสนดี และจากต้นฉบับผู้พัฒนาโค๊ด ELECT LIVE**
+
+หลวงพี่ที่แสนดี = https://github.com/purivaro/wonderful.software/tree/master/elect-live
+
+ต้นฉบับผู้พัฒนาโค๊ด = https://github.com/codeforthailand/election-live
+
+[ข้อมูลจาก หลวงพี่ที่แสนดี ตามด้านล่างนี้](https://github.com/purivaro/wonderful.software/tree/master/elect-live)
+
+---
+meta:
+  - name: description
+    content: เบื้องหลังการพัฒนาเว็บ ตั้งแต่การออกแบบ เซ็ตอัพโปรเจค แบ่งงาน การสร้างคอมมูนิตี้โอเพนซอร์ส การทำ CI/CD เทคนิคการเขียนโค้ด และบทเรียนต่างๆ
+  - property: og:image
+    content: /share-images/elect-live-v1.png
+---
+
+# บันทึกการพัฒนาเว็บ ELECT Live! [ข้อมูลจาก หลวงพี่ที่แสนดี](https://github.com/purivaro/wonderful.software/tree/master/elect-live)
+
+เว็บไซต์ [ELECT Live!](https://elect.thematter.co/)
+เป็นเว็บไซต์ที่ให้ผู้ใช้ติดตามผลการนับคะแนนเลือกตั้งได้แบบเรียลไทม์
+เราตั้งใจทำให้เป็นอีกหนึ่งแพลตฟอร์ม ที่หวังจะอำนวยความสะดวกให้คนไทยมีอีกหนึ่งช่องทางในการรับข้อมูลข่าวสารเกี่ยวกับการเลือกตั้ง
+
+![](./elect-live-screenshot.png)
+
+เว็บไซต์นี้เกิดขึ้นจากทีม Developer และ Designer หลายคน จากที่ต่างๆ อาสามาร่วมกันพัฒนาโดยไม่มีค่าตอบแทนใดๆ
+ใช้เวลาพัฒนาเพียง 8 วันก่อนการเลือกตั้ง (ซึ่งเป็นเวลาส่วนตัวของอาสาสมัคร ไม่ใช่งานแบบ Full-time)
+
+เราพัฒนาเว็บนี้กันแบบโอเพนซอร์ส
+โดยมีการวางระบบการทำงาน เพื่อให้ทุกคนสามารถเข้ามาร่วมพัฒนาได้ ถึงแม้ไม่ได้อยู่ในทีมงานหลัก
+จน[มีอาสาสมัครมาร่วมพัฒนาเว็บเรากว่า 20 คน](https://elect.thematter.co/about#contributors)
+และสามารถ[ปิด issue ได้กว่า 100 issue](https://github.com/codeforthailand/election-live/issues?q=is%3Aissue+sort%3Aupdated-desc+is%3Aclosed) ภายในเวลา 8 วัน
+โดยสามารถเข้าไปดูโค้ดได้ที่โปรเจค [codeforthailand/election-live](https://github.com/codeforthailand/election-live) บน GitHub
+
+ในวันที่ 24 มีนาคม 2562
+เว็บ ELECT Live! สามารถรองรับผู้ใช้ 100,000 คนที่เข้ามาใช้ในเวลาพร้อมกัน
+รวมผู้ใช้กว่า 1.5 ล้านคนในวันนั้น
+
+มีหลายเรื่องที่เราอยากจะเล่าเกี่ยวกับการพัฒนาเว็บนี้
+บันทึกนี้จึงแบ่งเป็นหลายๆ หัวข้อย่อย [ติดตามได้โดยตรงจากผู้พัฒนา](https://github.com/codeforthailand/election-live)
+
+
+[ข้อมูลโดยตรงจากผู้พัฒนาตามด้านล่างนี้](https://github.com/codeforthailand/election-live)
+
 # ELECT LIVE [![CircleCI](https://img.shields.io/circleci/project/github/codeforthailand/election-live/master.svg?logo=circleci)](https://circleci.com/gh/codeforthailand/election-live) [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/codeforthailand/election-live.svg)](https://codeclimate.com/github/codeforthailand/election-live/maintainability) [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/codeforthailand/election-live.svg)](https://codeclimate.com/github/codeforthailand/election-live/maintainability)
 
 Live Scoreboard for Thailand General Election 2562 (2019).
